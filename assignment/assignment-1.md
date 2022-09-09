@@ -23,3 +23,19 @@
 
 ~---> When you done, put `assignment-1.md` file on staged are, then commit it in your branch.\
 ~---> Please write your commands under this line.\
+
+mkdir m922-git
+cd m922-git
+touch third.txt
+git init
+git add third.txt
+git commit -m "adding third.txt"
+git log
+touch fourth.txt
+git add fourth.txt
+git commit -m "adding fourth.txt"
+rm third.txt
+git add .
+git commit -m "removing third.txt"
+git log
+git config --global
