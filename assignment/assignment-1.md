@@ -25,19 +25,19 @@
 ~---> Please write your commands under this line.\
 ~---> `git push -u origin {your-name-and-lastname}` once you commit ...
 
-1- cd ~
-2- mkdir m922-git
-3- cd m922-git
-4- "" > third.txt
-5- git init
-6- git add .
-7- git commit -m "adding third.txt"
-8- git log
-9- "" > fourth.txt
-10- git add .
-11- git commit -m "adding fourth.txt"
-12- rm third.txt
-13- git add .
-14- git commit -m "removing third.txt"
-15- git log
-16- git config --global --list
+1. cd ~
+2. mkdir m922-git
+3. cd m922-git
+4. "" > third.txt
+5. git init
+6. git add .
+7. git commit -m "adding third.txt"
+8. git log
+9. "" > fourth.txt
+10. git add .
+11. git commit -m "adding fourth.txt"
+12. rm third.txt
+13. git add .
+14. git commit -m "removing third.txt"
+15. git log
+16. git config --global --list
